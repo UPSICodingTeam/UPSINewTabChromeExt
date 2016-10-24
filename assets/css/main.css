@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Heebo Regular";
+    src: url(../fonts/Heebo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo Black";
+    src: url(../fonts/Heebo-Black.ttf) format("truetype");
+}
+
+.hz-top20 {
+	margin-top: 20px;
+}
+
+.hz-top50 {
+	margin-top: 50px;
+}
+
+.hz-top100 {
+	margin-top: 100px;
+}
+
+.hz-white {
+	color: white;
+}
+
+.hz-clock {
+	font-family: 'Heebo Black';
+	font-size: 10em;
+	color: rgba(255, 255, 255, 0.66);
+}
+
+.hz-small {
+	font-size: 20px;
+	margin-left: -20px;
+}
+
+.hz-topminus50 {
+	margin-top: -50px;
+}
+
+.hz-date {
+	font-family: 'Heebo Black';
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.66);
+}
+
+.hz-services {
+	background-color: rgba(255, 255, 255, 0.42);
+	height: 150px;
+	border-radius: 5px;
+}
+
+.hz-logo {
+	height: 80px;
+}
+
+.hz-fc {
+	font-style: italic;
+}
+
+.hz-disclaimer {
+	font-size: 0.7em;
+	color: rgba(255, 255, 255, 0.57);
+	line-height: 1.2em;
+}
+
+/* Float */
+
+.hz-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hz-float:hover,
+.hz-float:focus,
+.hz-float:active {
+  transform: translateY(-8px);
+}
+
+.hz-float-button {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hz-float-button:hover,
+.hz-float-button:focus,
+.hz-float-button:active {
+  transform: translateY(-3px);
+}
+
+
+button.radius, .button.radius {
+    border-radius: 3px; }
+
+button.round, .button.round {
+    border-radius: 1000px; }
+
+.style-4 input[type="text"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-bottom: solid 5px #c9c9c9;
+  transition:ease-in 0.3s;
+}
+.style-4 input[type="text"]:focus,
+.style-4 input[type="text"].focus {
+  border-bottom: solid 2px #ffffff;
+  outline: none;
+}
